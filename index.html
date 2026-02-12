@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="signup-container">
+      <div class="icon-container">
+        <i class="far fa-envelope-open"></i>
+      </div>
+      <h2>Join our newsletter</h2>
+      <p>Get the latest updates and coding tips straight to your inbox.</p>
+      <form id="newsletter-form">
+        <div class="input-group">
+          <i class="far fa-envelope"></i>
+          <input type="email" required placeholder="Enter your email" />
+        </div>
+        <button type="submit">
+          Subscribe <i class="fas fa-arrow-right"></i>
+        </button>
+      </form>
+      <div class="success-message" id="success-message">
+        <h3>You are subscribed!</h3>
+        <p>Thank you for joining our newsletter.</p>
+      </div>
+      <div class="benefits">
+        <p class="benefit-item">
+          <i class="fas fa-check"></i>Weekly coding tips
+        </p>
+        <p class="benefit-item">
+          <i class="fas fa-check"></i>No spam, unsubscribe anytime
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
